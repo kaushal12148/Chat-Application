@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/mainBg.png');
+    background-size: contain;
+    font-family: sans-serif;
+}
+
+.inputContainer {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainer input {
+    width: 70vw;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin: 0 1rem;
+    font-size: 0.9rem;
+    background-color: #817f7f;
+    color: white;
+}
+
+.inputContainer button {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #00b09b;
+    color: white;
+    padding: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+
+.chatContainer {
+    height: calc(100vh - 4rem);
+    overflow-x: scroll;
+    margin-bottom: 1rem;
+}
+
+.messageContainer {
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    width: fit-content;
+    background-color: #817f7f;
+    color: whitesmoke;
+}
+
+.messageContainer span {
+    font-weight: bold;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
